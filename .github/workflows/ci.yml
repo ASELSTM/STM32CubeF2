@@ -1,5 +1,5 @@
 # This workflow defines a couple of jobs to run in the frame of the automatic
-# continuous integration (ACI)
+# continuous integration (ACI).
 
 name: Automatic Continuous Integration (ACI)
 
