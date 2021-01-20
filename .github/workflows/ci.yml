@@ -44,8 +44,8 @@ jobs:
         id: Astyle
         uses: stm32duino/actions/astyle-check@master
         with:
-          astyle-definition: 'workflows/astyle-rules/.astylerc'
-          ignore-path-list: 'workflows/astyle-rules/.astyleignore'
+          astyle-definition: '.github/workflows/astyle-rules/.astylerc'
+          ignore-path-list: '.github/workflows/astyle-rules/.astyleignore'
       # Use the output from the `Astyle` step
       - name: Astyle Errors
         if: failure()
