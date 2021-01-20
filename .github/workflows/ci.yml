@@ -39,7 +39,7 @@ jobs:
       # First of all, clone the repo using the checkout action.
       - name: Checkout
         uses: actions/checkout@master
-	  
+
       - name: Astyle check
         id: Astyle
         uses: stm32duino/actions/astyle-check@master
