@@ -1,4 +1,5 @@
 .git
-BUILD
-CI
+.github
+Documentation
+_htmresc
 system
